@@ -23,5 +23,3 @@
 
 ### DELETEリクエスト実行結果
 ![](../../Raisetech課題用キャプチャ/Task7.DELETE結果.png)
-
-# homework-l7
