@@ -13,13 +13,13 @@
 ## 1.HTTPメソッドのGET/POST/PATCH/DELETEのリクエストを扱えるControllerを実装
 
 ### GETリクエスト実行結果
-![](../../Raisetech課題用キャプチャ/Task7.GET結果.png) 
+![Task7 GET結果](https://user-images.githubusercontent.com/103630732/175551804-eb4755d7-7032-40a4-8c40-4065543dd9ae.png)
 
 ### POSTリクエスト実行結果
-![](../../Raisetech課題用キャプチャ/Task7.POST結果.png)
+![Task7 POST結果](https://user-images.githubusercontent.com/103630732/175551830-2e1d2487-2643-47a9-9677-7d7b2d435a57.png)
 
 ### PATCHリクエスト実行結果
-![](../../Raisetech課題用キャプチャ/Task7.PATCH結果.png)
+![Task7 PATCH結果](https://user-images.githubusercontent.com/103630732/175551912-59522ed4-e467-48da-b7ab-1740f7f85d2a.png)
 
 ### DELETEリクエスト実行結果
 ![](../../Raisetech課題用キャプチャ/Task7.DELETE結果.png)
