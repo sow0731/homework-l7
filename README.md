@@ -22,7 +22,7 @@
 ![Task7 PATCH結果](https://user-images.githubusercontent.com/103630732/175551912-59522ed4-e467-48da-b7ab-1740f7f85d2a.png)
 
 ### DELETEリクエスト実行結果
-![](../../Raisetech課題用キャプチャ/Task7.DELETE結果.png)
+![Task7 DELETE結果](https://user-images.githubusercontent.com/103630732/175814978-a6242083-6831-4d8a-ad63-301fee3837ca.png)
 
 
 ## 3.オリジナルの仕様を加えてみる
@@ -34,5 +34,6 @@
 ・POSTとPATCHにバリデーションをかけ、"movieTitle"が空文字、null、20文字以上の場合はエラーとなるように実装
 
 ### バリデーションをかけた結果の例（POSTで"movieTitle"が20文字以上だった場合）
-![](../../../../Desktop/Task7.PostValidation.png)
+![Task7 PostValidation](https://user-images.githubusercontent.com/103630732/175815001-01fedcc1-9341-4dc5-b940-1c32230de3e9.png)
+
 ※　全ての実行結果のキャプチャを添付するとREADMEが読みにくくなりそうだったので、実行結果については一部のみを添付（他のパターンについても全て実行確認済みです）
