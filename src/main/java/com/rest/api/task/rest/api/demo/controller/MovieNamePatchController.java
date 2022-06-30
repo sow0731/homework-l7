@@ -1,6 +1,6 @@
-package com.RestApiTask.RestApiDemo.Controller;
+package com.rest.api.task.rest.api.demo.controller;
 
-import com.RestApiTask.RestApiDemo.Form.UpdateForm;
+import com.rest.api.task.rest.api.demo.form.UpdateForm;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -13,9 +13,9 @@ import java.util.Map;
 @RestController
 public class MovieNamePatchController {
 
-    @PatchMapping("/movie-info/{id}")
-    public ResponseEntity<Map<String,String>> updateMovieInfo(@PathVariable("id")int id,@Validated @RequestBody UpdateForm form) {
-        return ResponseEntity.ok(Map.of("Message","MovieInfo successfully updated"));
+    @PatchMapping("/movies/{id}")
+    public ResponseEntity<Map<String, String>> updateMovieInfo(@PathVariable("id") int id, @Validated @RequestBody UpdateForm form) {
+        return ResponseEntity.ok(Map.of("Message", "MovieInfo successfully updated"));
     }
 
 }

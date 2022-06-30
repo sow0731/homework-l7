@@ -1,4 +1,4 @@
-package com.RestApiTask.RestApiDemo.Form;
+package com.rest.api.task.rest.api.demo.form;
 
 import org.hibernate.validator.constraints.Length;
 
@@ -13,7 +13,7 @@ public class UpdateForm {
 
     @NotBlank
     @NotNull
-    @Length(min = 4,max = 4)
+    @Length(min = 4, max = 4)
     private String releaseYear;
 
     public String getReleaseYear() {
