@@ -37,3 +37,18 @@
 ![Task7 PostValidation](https://user-images.githubusercontent.com/103630732/175815001-01fedcc1-9341-4dc5-b940-1c32230de3e9.png)
 
 ※　全ての実行結果のキャプチャを添付するとREADMEが読みにくくなりそうだったので、実行結果については一部のみを添付（他のパターンについても全て実行確認済みです）
+
+## レビュー指摘の対応
+### ***指摘内容とその対応***
+・URL設計のリソース名を複数形に変更　→　movie-info -> moviesに変更
+
+・ワイルドカードインポートは避ける　→　https://qiita.com/Yuki10/items/9ebb7f1bdf4c800765a　を参考にIntelli Jの設定を変更し対応
+
+・https://github.com/sow0731/homework-l7/pull/1#discussion_r906816487　こちらの指摘についての対応 \
+→　"MovieInfo"クラスを作り、GetterとSetterを作成。"title"と"year"にそれぞれ映画名と公開年を引数として渡し、戻り値を変数"movies"に格納し対応(先生の指摘の意図と合っているか不安です)\
+
+***実行結果***
+![](../../../Desktop/Task.7 modify get.png)
+
+・パッケージ名を全て小文字に変更
+
