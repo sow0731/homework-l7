@@ -14,6 +14,6 @@ public class MovieNameGetController {
     public List<MovieInfo> getMovieInfo(@RequestParam(name = "movie-list", required = true) String movies) {
         return List.of(
                 new MovieInfo("Dark Waters", "2019"),
-                new MovieInfo("Frances Haa", "2012"));
+                new MovieInfo("Frances Ha", "2012"));
     }
 }
