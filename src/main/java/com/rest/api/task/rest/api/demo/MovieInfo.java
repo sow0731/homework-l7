@@ -1,12 +1,16 @@
 package com.rest.api.task.rest.api.demo;
 
 public class MovieInfo {
+    private int movieId;
     private String title;
     private String year;
 
-    public MovieInfo(String title, String year) {
-        this.title = title;
-        this.year = year;
+    public int getMovieId() {
+        return movieId;
+    }
+
+    public void setMovieId(int movieId) {
+        this.movieId = movieId;
     }
 
     public String getTitle() {
@@ -22,6 +26,12 @@ public class MovieInfo {
     }
 
     public void setYear(String year) {
+        this.year = year;
+    }
+
+    public MovieInfo(int movieId, String title, String year) {
+        this.movieId = movieId;
+        this.title = title;
         this.year = year;
     }
 }
