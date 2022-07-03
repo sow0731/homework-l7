@@ -45,11 +45,20 @@
 ・ワイルドカードインポートは避ける　→　https://qiita.com/Yuki10/items/9ebb7f1bdf4c800765a　を参考にIntelli Jの設定を変更し対応
 
 ・こちらの指摘についての対応　https://github.com/sow0731/homework-l7/pull/1#discussion_r906816487　 \
-→　"MovieInfo"クラスを作り、GetterとSetterを作成。"title"と"year"にそれぞれ映画名と公開年を引数として渡し、戻り値を変数"movies"に格納し対応　(先生の指摘の意図と合っているか不安です)
+→　"movieId"で0~2の数値を受け取り、その値によって表示が変わる仕様に変更。(0を受け取った場合は全て出力される)\
+0 ~ 2以外の値を受けた場合は例外処理されるように処理を追加
 
 ***実行結果***
 
-![Task 7 modify get](https://user-images.githubusercontent.com/103630732/176713990-feae2404-6503-49ed-ae11-6ac2bdb75312.png)
+0を受け取った場合
+
+![スクリーンショット 2022-07-03 22 50 10](https://user-images.githubusercontent.com/103630732/177043980-0eab197f-dc09-49a1-af7f-f2f296795415.png)
+
+指定の値以外を受け取った場合
+
+![スクリーンショット 2022-07-03 22 50 30](https://user-images.githubusercontent.com/103630732/177044077-c9ad72c6-342b-46cc-b5cc-6e6cccf77c47.png)
+
+
 
 ・パッケージ名を全て小文字に変更
 
